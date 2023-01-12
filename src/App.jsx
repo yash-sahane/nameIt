@@ -10,6 +10,7 @@ function App() {
   const name = require('@rstacruz/startup-name-generator')
 
   const setInputHandler = (value) => {
+    console.log('value is changed');
     setSuggested(value ? name(value) : []);
     value ? setIsTyping(true) : setIsTyping(false);
   }
