@@ -1,0 +1,30 @@
+.header-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img-expanded {
+    width: 35%;
+    transition: all .5s;
+}
+
+.header-img-contrasted {
+    width: 20%;
+    transition: all .5s;
+}
+
+.header-div .header-heading {
+    font-family: 'Indie Flower';
+    color: white;
+    transition: all .5s;
+}
+
+.header-div .header-heading-expanded {
+    font-size: 5vw;
+}
+
+.header-div .header-heading-contrasted {
+    font-size: 3vw;
+}
